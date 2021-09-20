@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    height: 100vh;
+}
+
+
+#intro, #who-are-we{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#introInfo h1{
+    font-size: 3em;
+}
+
+#introInfo h2{
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+#introInfo a{
+    padding: 1em;
+    background-color: #c6c6c6;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+}
+
+#introImg{
+    width: 50%;
+}
+
+#introImg img{
+    width: 100%;
+}
+
+#who-are-we-txt h1{
+    width: 15em;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#who-are-we-txt h2{
+    width: 20em;
+    font-size: 1.5em;
+}
+
+#who-are-we-img {
+    display: flex;
+    justify-content: center;
+}
+
+#who-are-we-img img{
+    width: 70%;
+    filter: drop-shadow(30px 10px 4px #9c9ca070);
+}
+
+#cta{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ctaCard{
+    width: 20em;
+    height: 30em;
+    text-align: center;
+    background-color: #fef6e1;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0px 12px 29px 0px rgba(0, 0, 0, 0.84);
+}
+
+.ctaCard img{
+    width: 80%;
+    justify-self: center;
+}
+
+.ctaLink{
+    padding: 1em;
+    margin-top: 2em;
+    background:linear-gradient(45deg, #e2339a,#ef4a51);
+    border-radius: 0.5em;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.ctaLink a{
+    padding: 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
