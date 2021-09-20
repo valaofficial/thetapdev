@@ -133,15 +133,6 @@ section{
     transition: all 300ms ease-in-out
 }
 
-.signupform:hover{
-    background-color: #00bfa6;
-    color: #ffffff;
-}
-
-#mce-MMERGE1, #mce-EMAIL{
-    outline: none !important;
-}
-
 .joinusBtn{
     background-color: #000000 !important;
     width: 96% !important;
