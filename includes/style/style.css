@@ -10,6 +10,7 @@ body{
 
 section{
     min-height: 100vh;
+    padding: 2em;
 }
 
 
@@ -25,17 +26,24 @@ section{
 
 #introInfo h2{
     font-size: 1.2em;
-    margin-bottom: 2em;
 }
 
-#introInfo a{
+.introlink{
+    margin-top: 2em;
+    width: 10em;
     padding: 1em;
     background-color: #c6c6c6;
-    text-decoration: none;
-    color: #000000;
     font-size: 1.2em;
     border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 300em ease-in-out;
+}
+
+.introlink a{
+    text-decoration: none;
+    color: #000000;
 }
 
 #introInfo a:hover{
@@ -61,10 +69,6 @@ section{
     font-size: 1.5em;
 }
 
-#who-are-we-img {
-    display: flex;
-    justify-content: center;
-}
 
 #who-are-we-img img{
     width: 70%;
@@ -150,7 +154,7 @@ section{
     section{
         margin-bottom: 10em;
     }
-    #intro, #who-are-we{
+    #intro, #who-are-we, #introInfo{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -159,18 +163,20 @@ section{
         text-align: center;
     }
 
+    #who-are-we{
+        height: 80vh;
+    }
+
+    #introInfo{
+        justify-content: space-around;
+    }
+
     #introInfo h1{
-        font-size: 2em;    
-        margin-bottom: 2em;
+        font-size: 2em;
+        margin-bottom: 1em;
     }
     
     #introInfo h2{
-        font-size: 1em;
-        margin-bottom: 2em;
-    }
-
-    #introInfo a{
-        margin-top: 2em;
         font-size: 1em;
     }
 
@@ -228,7 +234,8 @@ section{
     }
     
     .signupform{
-        width: 80%;
+        margin-top: 3em;
+        width: 100%;
         background-color: #eeeeee;
         padding: 2em;
         border-radius: 1em;
