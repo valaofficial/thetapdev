@@ -13,6 +13,40 @@ section{
     padding: 2em;
 }
 
+.navbar-nav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.nav-link{
+    color: #000000 !important;
+}
+
+.joinLink{
+    width: 8em ;
+    background-color: #000000;
+    border-radius: 0.5em;
+    transition: all 500ms ease-in-out;
+}
+
+.joinLink:hover{
+    background: none;
+    border:2px solid #000000;
+}
+
+.joinLink a{
+    width: 100%;
+    color: #ffffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinLink a:hover{
+    color: #000000 !important;
+}
+
 
 #intro, #who-are-we{
     display: flex;
@@ -95,13 +129,17 @@ section{
 }
 
 .ctaCard img{
-    width: 80%;
+    width: 50%;
     justify-self: center;
+}
+
+.ctaCard h1{
+    font-size: 1.5em;
 }
 
 .ctaLink{
     width: 10em;
-    padding: 1em;
+    height: 3em;
     margin-top: 2em;
     background:linear-gradient(45deg, #e2339a,#ef4a51);
     border-radius: 0.5em;
@@ -110,7 +148,11 @@ section{
 }
 
 .ctaLink a{
-    padding: 1em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #ffffff;
 }
@@ -147,6 +189,18 @@ section{
 
 
 @media(max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     section{
         margin-bottom: 10em;
     }
