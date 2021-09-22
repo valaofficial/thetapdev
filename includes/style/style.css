@@ -17,6 +17,10 @@ section{
     margin-bottom: 3em;
 }
 
+.navbar-brand img{
+    width: 6em;
+}
+
 .navbar-nav{
     display: flex;
     justify-content: right;
