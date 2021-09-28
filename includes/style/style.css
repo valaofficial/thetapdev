@@ -59,6 +59,10 @@ section{
     color: #000000 !important;
 }
 
+#intro{
+    height: 80vh;
+}
+
 
 #intro, #who-are-we{
     display: flex;
